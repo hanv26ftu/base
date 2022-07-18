@@ -1,0 +1,35 @@
+{
+    "deliveryDate":"2022/06/16",
+    "addressId":"ce1540b4-692e-4baa-8944-c6124081d960",
+    "orderList":[
+      {
+      "flowerId":"0d34d188-6213-49fe-a4cd-3757954c3ddb",
+        "quantity":4
+      },
+      {
+      "flowerId":"6368ca1b-bcc6-4bf1-b973-74eb4b3cd0eb",
+        "quantity":3
+      }
+    ]
+  }
+
+  {
+    "title":"hanv",
+    "avaUrl":"https://picsum.photos/200/300",
+    "imageList":"https://picsum.photos/200/300,https://picsum.photos/200/300,https://picsum.photos/200/300,https://picsum.photos/200/300,https://picsum.photos/200/300,https://picsum.photos/200/300",
+    "currentPrice":"80000",
+    "oldPrice":"100000",
+    "category":"EVERYDAY",
+    "typeId":null,
+    "description":"description description description",
+    "status":"ACTIVE"
+  }
+// Tạo user
+  {
+    "fullName":"Nguyễn Văn Hà",
+    "passWord":"123456",
+    "phone":"0934666780",
+    "provinceId":"e89ffdc2-d0a6-405e-99bc-8dbbdd7a456b",
+    "address":"Ngõ 104, Cổ Nhuế, Bắc Từ Liêm, Hà Nội"
+
+}

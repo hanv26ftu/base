@@ -1,0 +1,19 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ContextService = void 0;
+const requestContext = require("request-context");
+class ContextService {
+    static get(key) {
+        return requestContext.get(ContextService._getKeyWithNamespace(key));
+    }
+    static set(key, value) {
+        requestContext.set(ContextService._getKeyWithNamespace(key), value);
+    }
+    static _getKeyWithNamespace(key) {
+        return `${ContextService._nameSpace}.${key}`;
+    }
+}
+exports.ContextService = ContextService;
+ContextService._nameSpace = 'request';
+ContextService._authUserKey = 'user_key';
+//# sourceMappingURL=context.service.js.map

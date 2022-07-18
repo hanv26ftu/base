@@ -1,0 +1,1 @@
+{"version":3,"file":"mobile-app.module.js","sourceRoot":"","sources":["../../../src/mobile-app/mobile-app.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwE;AACxE,6DAAwD;AACxD,mEAA8D;AAS9D,IAAa,eAAe,GAA5B,MAAa,eAAe;CAK3B,CAAA;AALY,eAAe;IAN3B,eAAM,CAAC;QACN,OAAO,EAAE,EAAE;QACX,WAAW,EAAE,CAAC,2CAAmB,CAAC;QAClC,SAAS,EAAE,CAAC,qCAAgB,CAAC;KAC9B,CAAC;GAEW,eAAe,CAK3B;AALY,0CAAe"}
